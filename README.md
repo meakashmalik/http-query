@@ -39,6 +39,6 @@ node client/query.mjs
 
 ```mermaid
 flowchart LR
-    C[Client] -->|QUERY + JSON body| S[/users]
-    S --> R[Filter result — data nahi badla]
+    C[Client] -->|QUERY JSON body| S["/users"]
+    S --> R["Filter result, data unchanged"]
 ```
