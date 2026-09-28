@@ -1,0 +1,11 @@
+{
+  "name": "http-query-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RFC 10008 HTTP QUERY method — notes + runnable demo",
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "node client/query.mjs"
+  }
+}
